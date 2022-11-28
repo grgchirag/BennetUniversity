@@ -1,0 +1,247 @@
+/* navbar styling begin */
+.navbar{
+    box-shadow: 1px 1px 10px 0px #f1f1f1;
+    height: 81px;
+    z-index: 2;
+}
+.navbar img{
+    height: 61px;
+    width: 180px;
+}
+/* for hover in navbar */
+.navbar ul li a{
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 20px 5px 25px 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+}
+.navbar ul li a:hover{
+    background-color: #336699;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+/* for hover in navbar ends */
+/* apply now button */
+.navbar .btn-apply{
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border: none;
+    margin-top: 15px;
+    border: 10px;
+    background-color: #da2032;
+}
+/* search image */
+.navbar .img1{
+    margin-top: 10px;
+    height: 20px;
+    width: 25px;
+}
+.navbar ul li .list-none{
+    list-style-type: none;
+}
+.btns{
+    font-size: 25px;
+}
+@media screen and (min-width:1050px) {
+    .navbar .btns{
+        display: none;
+    }
+}
+@media screen and (max-width:1050px) {
+    .navbar ul, .navbar .btn-apply{
+        display: none;
+    }
+    .navbar .btn {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+      }
+      /* search image */
+      .navbar .img1{
+      position: absolute;
+      top: 25px;
+    }
+}
+/* navbar styling ends */
+
+/* banner begin */
+@media screen and (min-width:850px) {
+    .body1 .img1{
+        display: none;
+    }
+}
+@media screen and (max-width:850px)  {
+    .body1 .img2{
+        display: none;
+    }
+}
+/* banner ends */
+
+/* button with max z-index */
+.btn2{
+    left: 39%;
+    z-index: 2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 39px 10px 39px;
+}
+.btn1{
+    top: 30%;
+    width:52px;
+    height:165px;
+    z-index: 30;
+}
+/* button with max z-index */
+
+/* Advatages section media for different screen beign */
+@media screen and (max-width:1240px)  {
+    .body1 .pre1{
+        display: none;
+    }
+}
+@media screen and (max-width:1035px){
+    .body1 .pre2{
+        display: none;
+    }
+}
+@media screen and (min-width: 1240px)  {
+    .body1 .pre2{
+        display: none;
+    }
+}
+@media screen and (max-width:850px ){
+    .body1 .pre3{
+        display: none;
+    }
+}
+@media screen and (min-width: 1035px) {
+    .body1 .pre3{
+        display: none;
+    }
+}
+@media screen and (min-width:850px) {
+    .body1 .pre4{
+        display: none;
+    }
+}
+/* grid white blue hover effet begin */
+.flex .box{
+    height: 270px;
+    width: 250px;
+    box-shadow: 1px 1px 10px 0px rgb(199, 199, 199);
+}
+.flex .box:hover{
+    color: white;
+    background-color: #002150;
+}
+@media screen and (max-width:1225px) {
+    .flex .box{
+        height: 350px;
+    }
+}
+/* grid white blue hover effet begin */
+/* Advatages section media for different screen beign */
+
+/* Program section begin */
+.body2 h2 .prgm:hover{
+    color: #da2032;
+    transition: 1s;
+}
+.body2 .tab{
+    margin-left: auto;
+    margin-right: auto;
+}
+.body2 .tab table tr {
+    border-bottom: 1px solid rgb(233, 230, 230);
+}
+.body2 .tab table tr td{
+    padding: 15px;
+    height: 20px;
+}
+.body2 .tab table .none td{
+    display: none;
+}
+.body2 .tab1{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.body2 .tab1 ul {
+    padding-top:35px;    
+}
+.body2 .tab1 ul li{
+    padding-top:15px;
+    list-style-type: none;
+    text-align: left;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+@media screen and (max-width: 1230px)  {
+    .body2 .tab table{
+        display: none;
+    }
+}
+@media screen and (min-width: 1230px)  {
+    .body2 .tab1{
+        display: none;
+    }
+}
+.body2 button{
+    margin-left: 40%;
+    margin-bottom: 35px;
+    padding: 10px 0px 0px 15px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.body2 button img{
+    filter: invert();
+}
+
+/* Program section ends */
+
+/* UPHORIA x ZENEVIA */
+.body3 h2 .blg:hover{
+    color: #da2032;
+    transition: 1s;
+}
+/* Academic Collaborations */
+.body4 h2 .blg:hover{
+    color: #da2032;
+    transition: 1s;
+}
+
+/* <!-- working on 21 oct --> */
+/* .placement{
+    display: none;
+}
+.firstbtn:hover + .placement{
+    display: block;
+} */
+.view{
+    background-image: url("images");
+}
+.bg-image{
+    background-image: url("images/kochi-india-city-line-skyline-white-background-flat-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-banner-website_596401-387.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.copyright{
+    display: block;
+}
+.copyright div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+}
